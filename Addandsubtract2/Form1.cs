@@ -28,7 +28,7 @@ namespace Addandsubtract2
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            sum++;
+            sum = sum * 100000;
             labelSum.Text = sum.ToString();
         }
 
